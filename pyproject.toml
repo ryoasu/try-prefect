@@ -7,8 +7,9 @@ authors = ["ryoasu <ryoasu107@gmail.com>"]
 [tool.poetry.dependencies]
 python = "3.9.6"
 numpy = "^1.21.2"
-prefect = "^0.15.5"
+prefect = {extras = ["dev"], version = "^0.15.5"}
 jupyter = "^1.0.0"
+graphviz = "^0.17"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.4.1"
